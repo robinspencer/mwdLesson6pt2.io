@@ -139,6 +139,8 @@ footer {
         font-size: 2em;
         line-height: 1;
         margin: 0;
+	margin-top: -110px;
+
     }
     .banner a {
         border-bottom: 0;
