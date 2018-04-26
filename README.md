@@ -1,1 +1,4 @@
-# mwdLesson6pt2.io
+I Heart Cuttlefish
+==================
+
+A little project for my Gymnasium class.
