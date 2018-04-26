@@ -1,15 +1,6 @@
 /* =================================================================
- * Main CSS file for I Heart Cuttlefish Project
+ * Main CSS file from I Heart Cuttlefish Project
  * by Aaron Gustafson, Easy Designs
- * 
- * Created for the Aquent Gymnasium course
- * Introduction to Modern Web Design
- * 
- * For full project code, visit
- * https://github.com/aarongustafson/i-heart-cuttlefish
- *  
- * Learn what you can and share it with others!
- * 
  * ================================================================= */
 
 /* Charset Controls */
@@ -37,13 +28,16 @@
   zoom: 1.0;
 }
 
- 
+@import {
+	url('https://fonts.googleapis.com/css?family=Barlow+Condensed:300,300i,500,500i,700,700i|Ultra');
+}
+
 /* CSS Reset for HTML5 */
 article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block;}
 
 
 body {
-    font: 100%/1.4 "Libre Baskerville", Georgia, "Times New Roman", Times, serif;
+    font: 100%/1.4 "Barlow Condensed", Helvetica, Arial, sans-serif;
     margin: 0;
     padding: 0;
        -moz-font-smoothing: antialiased;
@@ -57,8 +51,7 @@ body {
  * Defaults
  * ================================================================= */
 h1, h2, h3 {
-    font-family: Satisfy, cursive;
-    font-weight: 400;
+    font-family: Ultra, sans-serif;
     line-height: 1; /* 1.4 * the font size */
     margin: 0;
 }
@@ -177,7 +170,9 @@ footer {
     border-radius: 3px;
     background: #000;
     color: #fff;
-    font: bold .875em Oxygen, Helvetica, Arial, sans-serif;
+    font: "Barlow Condensed", Helvetica, Arial, sans-serif;
+	font-weight: 400;
+	font-size: 1em;
     padding: .5em;
     text-transform: uppercase;
     /* move to the upper right corner */
@@ -202,7 +197,9 @@ nav a {
     border-bottom: 1px solid #000;
     color: #000;
     display: block;
-    font: bold 1em Oxygen, Helvetica, Arial, sans-serif;
+    	font: "Barlow Condensed", Helvetica, Arial, sans-serif;
+	font-weight: 400;
+	font-size: 1em;
     line-height: 2;
     padding: 0 1em;
     outline: none;
@@ -235,8 +232,7 @@ footer {
     border-top: 1px solid #ccc;
     padding-top: 1em;
     font-size: 0.875em; /* 16 * .875 = 14 */
-    font-style: italic;
-}
+    }
 
  
 /* =================================================================
@@ -282,7 +278,6 @@ figure {
 }
     .figure__caption {
         font-size: 0.875em; /* 16 * .875 = 14 */
-        font-style: italic;
         margin: 1em 0 0;
     }
         .figure__caption em,
@@ -294,7 +289,6 @@ figure {
         background: rgba( 0, 0, 0, .8 ); /* 80% black */
         color: white;
 
-        font-family: sans-serif;
         font-size: 0.7857em; /* 14 * .7857 = 11 */
 
         padding: .5em .75em;
