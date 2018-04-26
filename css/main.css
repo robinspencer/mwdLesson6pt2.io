@@ -139,7 +139,6 @@ footer {
         font-size: 2em;
         line-height: 1;
         margin: 0;
-	margin-top: -110px;
     }
     .banner a {
         border-bottom: 0;
@@ -732,6 +731,7 @@ figure {
             font-size: 8vw; /* if supported, scale with the screen */
             position: static;
             margin-left: 0;
+	    margin-top: -110px;
         }
      
     /* =================================================================
