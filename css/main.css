@@ -53,6 +53,7 @@ h1, h2, h3 {
     font-family: Ultra, sans-serif;
     line-height: 1; /* 1.4 * the font size */
     margin: 0;
+	color: #382514;
 }
 h1 {
     font-size: 3em; /* 16 * 3 = 48 */
@@ -64,11 +65,12 @@ section h1 {
 p, dl, ol, ul {
     margin-top: 0;
     margin-bottom: 1.25em; /* 16 * 1.2 = 20 */
+	color: #58493c;
 }
 a {
-    color: green;
+    color: #67503c;
+	font-weight: 500;
     text-decoration: none;
-    border-bottom: 1px dotted;
     -webkit-transition: background .5s, color .5s;
        -moz-transition: background .5s, color .5s;
         -ms-transition: background .5s, color .5s;
@@ -77,8 +79,7 @@ a {
     a:hover,
     a:focus,
     a:active {
-        color: red;
-        border-bottom-style: solid;
+        color: #67503c;
     }
 
 cite {
@@ -128,7 +129,7 @@ footer {
  * Banner
  * ================================================================= */
 .banner {
-    background: #000;
+    background: #ff6f00;
     color: #fff;
     margin: 0 0 2em;
     padding: 2% 1em;
