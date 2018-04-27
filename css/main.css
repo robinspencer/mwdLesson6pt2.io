@@ -80,7 +80,7 @@ a {
     a:hover,
     a:focus,
     a:active {
-        color: #67503c;
+        color: #ff6e01;
 	-webkit-transition: color 1s;
 	-moz-transition: color 1s;
         -ms-transition: color 1s;
