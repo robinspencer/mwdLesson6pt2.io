@@ -28,7 +28,7 @@
   zoom: 1.0;
 }
 
-https://fonts.googleapis.com/css?family=Barlow+Condensed:400,400i,500,500i|Ultra, sans-serif;
+https://fonts.googleapis.com/css?family=Barlow+Condensed:400,400i,500,500i,600,600i|Ultra, sans-serif;
 
 
 /* CSS Reset for HTML5 */
@@ -53,6 +53,11 @@ h1, h2, h3 {
     font-family: Ultra, sans-serif;
     line-height: 1; /* 1.4 * the font size */
     margin: 0;
+	-moz-font-smoothing: antialiased;
+        -ms-font-smoothing: antialiased;
+        -o-font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+         font-smoothing: antialiased;
 	color: #382514;
 }
 h1 {
@@ -68,8 +73,7 @@ p, dl, ol, ul {
 	color: #58493c;
 }
 a {
-    color: #67503c;
-	font-weight: 500;
+	font-weight: 600;
     text-decoration: none;
     -webkit-transition: background .5s, color .5s;
        -moz-transition: background .5s, color .5s;
@@ -80,6 +84,10 @@ a {
     a:focus,
     a:active {
         color: #67503c;
+	-webkit-transition: color 1s;
+	-moz-transition: color 1s;
+        -ms-transition: color 1s;
+            transition: color 1s;
     }
 
 cite {
