@@ -68,7 +68,8 @@ section h1 {
     font-size: 2em; /* 16 * 2 = 32 */
 }
 h3 {
-	font-size: 1.4em;
+	font-size: 1em;
+	margin-bottom: .5em;
 	color: #58493c;
 }
 
