@@ -76,10 +76,6 @@ a {
     font-weight: 600;
     color: #58493c;
     text-decoration: none;
-    -webkit-transition: background .5s, color .5s;
-       -moz-transition: background .5s, color .5s;
-        -ms-transition: background .5s, color .5s;
-            transition: background .5s, color .5s;
 }
     a:hover,
     a:focus,
