@@ -68,6 +68,7 @@ section h1 {
     font-size: 2em; /* 16 * 2 = 32 */
 }
 h3 {
+	font-family: Ultra;
 	font-size: 1em;
 	margin-bottom: .5em;
 	color: #58493c;
@@ -92,6 +93,11 @@ a {
         -ms-transition: color 1s;
             transition: color 1s;
     }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
 
 cite {
     font-style: normal;
@@ -136,9 +142,7 @@ footer {
 }
 .factsDiv {
     display: block;
-    max-width: 50%;
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center
 }
 
 
