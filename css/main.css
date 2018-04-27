@@ -138,6 +138,7 @@ main,
 footer {
     box-sizing: border-box;
     padding: 0 1em;
+    max-width: 750px;
 }
 .factsDiv {
     display: block;
