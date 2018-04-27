@@ -70,10 +70,11 @@ section h1 {
 p, dl, ol, ul {
     margin-top: 0;
     margin-bottom: 1.25em; /* 16 * 1.2 = 20 */
-	color: #58493c;
+    color: #58493c;
 }
 a {
-	font-weight: 600;
+    font-weight: 600;
+    color: #58493c;
     text-decoration: none;
     -webkit-transition: background .5s, color .5s;
        -moz-transition: background .5s, color .5s;
