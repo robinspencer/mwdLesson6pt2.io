@@ -577,25 +577,29 @@ figure {
         }
         #menu a {
             border-radius: 5px 5px 0 0;
-            color: #fff;
+            font-weight: 600;
+            color: #58493c;
             line-height: 2em;
             padding: 0 1em;
         }
         #menu mark a {
             background: #fff;
-            color: #000;
+            font-weight: 600;
+            color: #58493c;
         }
         #menu ul a:hover,
         #menu ul a:focus,
         #menu ul mark a:hover,
         #menu ul mark a:focus {
             background: #ccc;
-            color: #000;
+            font-weight: 600;
+    	    color: #58493c;
         }
         #menu ul a:active,
         #menu ul mark a:active {
             background: green;
-            color: #fff;
+            font-weight: 600;
+            color: #58493c;
         }
     .home #menu {
         position: static;
