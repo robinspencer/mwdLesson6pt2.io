@@ -58,7 +58,7 @@ h1, h2{
         -o-font-smoothing: antialiased;
     -webkit-font-smoothing: antialiased;
          font-smoothing: antialiased;
-	color: #382514;
+	color: #fdb677;
 }
 h1 {
     font-size: 3em; /* 16 * 3 = 48 */
@@ -128,7 +128,7 @@ main,
 nav,
 footer {
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 750px;
 }
 header,
 main,
