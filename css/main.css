@@ -75,7 +75,7 @@ h3 {
 }
 
 p, dl, ol, ul {
-    margin-top: 0;
+    margin: 0;
     margin-bottom: 1.25em; /* 16 * 1.2 = 20 */
     color: #58493c;
 }
@@ -127,7 +127,7 @@ header,
 main,
 nav,
 footer {
-    margin: 0 auto;
+    margin: 0px auto;
 }
 header,
 main,
@@ -136,13 +136,14 @@ nav {
 }
 main,
 footer {
-    box-sizing: border-box;
-    padding: 0 1em;
-    max-width: 750px;
+    /* box-sizing: border-box; */
+    padding: 43px 2em 0 330px;
+    /* max-width: 600px; */
+    /* -webkit-mask-position: inherit; */
 }
 .factsDiv {
     display: block;
-    text-align: center
+    text-align: center;
 }
 
 
@@ -153,9 +154,12 @@ footer {
 .banner {
     background: #ff6f00;
     color: #fff;
-    margin: 0 0 2em;
+    margin: 0px 0 2em;
     padding: 2% 1em;
-    position: relative;
+    position: fixed;
+    width: 270px;
+    float: left;
+    position: fixed;
     outline: none;
 }
     .banner h1 {
@@ -193,8 +197,8 @@ footer {
     background: #000;
     color: #fff;
     font: "Barlow Condensed", Helvetica, Arial, sans-serif;
-	font-weight: 400;
-	font-size: 1em;
+    font-weight: 400;
+    font-size: 1em;
     padding: .5em;
     text-transform: uppercase;
     /* move to the upper right corner */
@@ -212,8 +216,9 @@ nav ul {
     color: #000;
     border-top: 1px solid;
     list-style: none;
-    margin: 0;
+    margin: 42px 0px 0px 49px;
     padding: 0;
+    position: fixed;
 }
 nav a {
     border-bottom: 1px solid #000;
@@ -579,9 +584,11 @@ figure {
         }
     #menu {
         position: absolute;
-        top: 3.75em;
-        right: 0;
-        white-space: nowrap;
+        top: 5em;
+        /* right: 0; */
+        left: 5;
+        center: inherit;
+        /* white-space: nowrap; */
     }
         #menu ul {
             background: transparent;
@@ -590,7 +597,7 @@ figure {
         #menu li,
         #menu a {
             border: 0;
-            display: inline-block;
+            /* display: inline-block; */
         }
         #menu a {
             border-radius: 5px 5px 0 0;
@@ -740,16 +747,17 @@ figure {
      * Banner
      * ================================================================= */
     .banner {
-        min-height: 4em;
+        min-height: 100%;
         max-width: 100%;
     }
         .banner h1 {
             font-size: 3em;
             line-height: 1.4;
-            padding: 0 .5em;
-            position: absolute;
-            left: 50%;
-            margin-left: -10em;
+            padding: 12px .5em;
+            position: fixed;
+            float: left;
+            /* left: 50%; */
+            /* margin-left: -10em; */
         }
     .banner--home {
         padding-bottom: 3%;
@@ -769,10 +777,10 @@ figure {
         margin-right: -33em;
     }
     #menu {
-        top: 4em;
-        right: 50%;
-        margin-right: -30em;
-        padding-right: 1em;
+        /* top: 4em; */
+        /* right: 50%; */
+        /* margin-right: -30em; */
+        /* padding-right: 1em; */
     }
         #menu li {
             margin-left: -4px;
