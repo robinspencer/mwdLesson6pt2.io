@@ -142,11 +142,13 @@ footer {
     /* -webkit-mask-position: inherit; */
     border-right: #ff6e01 solid 7em;
 }
+.parDiv {
+}
+		
 .factsDiv {
     display: block;
     text-align: center;
 }
-
 
 
 /* =================================================================
