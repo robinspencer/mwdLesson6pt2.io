@@ -156,7 +156,7 @@ footer {
     background: #ff6f00;
     color: #fff;
     margin: 0px 0 2em;
-    padding: 3% 1em;
+    padding: 3% 2em;
     position: fixed;
     width: 270px;
     float: left;
@@ -395,8 +395,11 @@ figure {
      * ================================================================= */
     .banner {
         /* margin: 0; */
+        /* margin-right: 2px; */
         /* padding-right: 4.625em; */
         /* min-width: 100%; */
+        width: 90%;
+        padding: 18px 35px 18px 18px;
     }
         .banner h1 a {
             display: table-cell;
@@ -576,6 +579,7 @@ figure {
     }
         .banner h1 {
         margin: 31px;
+        line-height: 1.4;
         }
      
     /* =================================================================
@@ -600,11 +604,13 @@ figure {
         #menu ul {
             background: transparent;
             border: 0;
+            margin-left: 50px;
         }
         #menu li,
         #menu a {
             border: 0;
             /* display: inline-block; */
+            margin-left: -1px;
         }
         #menu a {
             border-radius: 5px 5px 0 0;
@@ -790,7 +796,7 @@ figure {
         /* padding-right: 1em; */
     }
         #menu li {
-            margin-left: -4px;
+            margin-left: -1px;
         }
             
     /* =================================================================
