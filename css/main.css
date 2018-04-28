@@ -39,11 +39,12 @@ body {
     font: 110%/1.4 "Barlow Condensed", Helvetica, Arial, sans-serif;
     margin: 0;
     padding: 0;
-       -moz-font-smoothing: antialiased;
-        -ms-font-smoothing: antialiased;
-         -o-font-smoothing: antialiased;
+    background: #ff6d01;
+    -moz-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
     -webkit-font-smoothing: antialiased;
-            font-smoothing: antialiased;
+    font-smoothing: antialiased;
 }
 
 /* =================================================================
@@ -70,8 +71,8 @@ section h1 {
 h3 {
 	font-family: Ultra;
 	font-size: 1em;
-	margin-bottom: .5em;
-	color: #58493c;
+	margin-bottom: .2em;
+	color: #8c6546;
 }
 
 p, dl, ol, ul {
@@ -127,7 +128,7 @@ header,
 main,
 nav,
 footer {
-    margin: 0px auto;
+    margin: 0px;
 }
 header,
 main,
@@ -137,17 +138,19 @@ nav {
 main,
 footer {
     /* box-sizing: border-box; */
-    padding: 43px 3em 0 330px;
+    padding: 63px 3em 1px 38px;
+    margin: 0px 9em 0px 330px;
     /* max-width: 600px; */
     /* -webkit-mask-position: inherit; */
-    border-right: #ff6e01 solid 7em;
+    /* border-right: #ff6e01 solid 7em; */
+    background: #fff;
 }
-.parDiv {
-}
+.parDiv {max-width:  700px;}
 		
 .factsDiv {
     display: block;
     text-align: center;
+    max-width:  700px;
 }
 
 
@@ -261,7 +264,8 @@ nav mark a:focus {
 footer {
     border-top: 1px solid #ccc;
     padding-top: 1em;
-    font-size: 0.875em; /* 16 * .875 = 14 */
+    font-size: 0.8em; /* 16 * .875 = 14 */
+    /* max-width: inherit; */
     }
 
  
@@ -274,8 +278,8 @@ picture,
 img {
     display: block;
     width: 100%;
-    max-width: 100%;
-    height: auto;
+    /* max-width: 100%; */
+    /* height: auto; */
 }
 
 /* =Responsive Videos
@@ -420,6 +424,7 @@ figure {
 	main {
 	padding: 94px 2em 0 18px;
 	border: 0;
+	margin: 0;
 	}
      
     /* =================================================================
@@ -573,7 +578,7 @@ figure {
 @media only screen and (min-width:40.5em) {
     
     /* =================================================================
-     * Banner
+     * Layout
      * ================================================================= */
     .banner {
         padding: 1em;
@@ -583,6 +588,8 @@ figure {
         margin: 31px;
         line-height: 1.4;
         }
+     main {
+	}
      
     /* =================================================================
      * Navigation
