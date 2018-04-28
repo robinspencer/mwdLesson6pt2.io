@@ -137,9 +137,10 @@ nav {
 main,
 footer {
     /* box-sizing: border-box; */
-    padding: 43px 2em 0 330px;
+    padding: 43px 3em 0 330px;
     /* max-width: 600px; */
     /* -webkit-mask-position: inherit; */
+    border-right: #ff6e01 solid 7em;
 }
 .factsDiv {
     display: block;
@@ -155,7 +156,7 @@ footer {
     background: #ff6f00;
     color: #fff;
     margin: 0px 0 2em;
-    padding: 2% 1em;
+    padding: 3% 1em;
     position: fixed;
     width: 270px;
     float: left;
@@ -163,7 +164,7 @@ footer {
     outline: none;
 }
     .banner h1 {
-        font-size: 2em;
+        font-size: 3em;
         line-height: 1;
         margin: 0;
     }
@@ -393,7 +394,9 @@ figure {
      * Banner
      * ================================================================= */
     .banner {
-        padding-right: 4.625em;
+        /* margin: 0; */
+        /* padding-right: 4.625em; */
+        /* min-width: 100%; */
     }
         .banner h1 a {
             display: table-cell;
@@ -410,7 +413,8 @@ figure {
             height: auto;
         }
 	main {
-	padding: 43px 2em 0 18px;
+	padding: 94px 2em 0 18px;
+	border: 0;
 	}
      
     /* =================================================================
@@ -756,7 +760,7 @@ figure {
         .banner h1 {
             font-size: 3em;
             line-height: 1.4;
-            padding: 12px .5em;
+            /* padding: 0; */
             position: fixed;
             float: left;
             /* left: 50%; */
