@@ -409,6 +409,9 @@ figure {
             line-height: 2.5;
             height: auto;
         }
+	main {
+	padding: 43px 2em 0 18px;
+	}
      
     /* =================================================================
      * Navigation
