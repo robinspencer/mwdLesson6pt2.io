@@ -1,6 +1,6 @@
 /* =================================================================
  * Main CSS file from I Heart Cuttlefish Project
- * by Aaron Gustafson, Easy Designs
+ * by Aaron Gustafson, Easy Designs. Edited by Robin Spencer.
  * ================================================================= */
 
 /* Charset Controls */
@@ -568,10 +568,10 @@ figure {
      * ================================================================= */
     .banner {
         padding: 1em;
+	min-height: 100%;
     }
         .banner h1 {
-            margin: 0;
-            padding-bottom: .87em;
+        margin: 31px;
         }
      
     /* =================================================================
