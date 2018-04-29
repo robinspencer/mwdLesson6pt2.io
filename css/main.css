@@ -114,6 +114,8 @@ cite {
     background: #5f3a1d;
     letter-spacing: 1px;
     width: 255px;
+    -webkit-transform: translateZ(0);
+    -webkit-font-smoothing: subpixel-antialiased;
 }
 
 
@@ -168,8 +170,6 @@ main {
     position: fixed;
     margin: 0px 0px 0px 0px;
     width: 100%;
-    -webkit-transform: translateZ(0);
-    -webkit-font-smoothing: subpixel-antialiased;
     background: #333;
     height: 32px;
 }
@@ -417,7 +417,7 @@ figure {
 /* 320px—648px */
 @media only screen and (min-width:20em) and (max-width:40.5em) {
 	
-	.topElement {
+	.topElementli {
     	margin: 0px 0px 0px 0px;
 	}
     
