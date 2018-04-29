@@ -135,8 +135,7 @@ main,
 nav {
     margin-bottom: 1em;
 }
-main,
-footer {
+main {
     /* box-sizing: border-box; */
     padding: 63px 3em 1px 38px;
     margin: 0px 9em 0px 330px;
@@ -144,9 +143,6 @@ footer {
     /* -webkit-mask-position: inherit; */
     /* border-right: #ff6e01 solid 7em; */
     background: #fff;
-}
-
-footer {
 }
 
 .parDiv {max-width:  700px;}
