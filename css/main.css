@@ -288,7 +288,7 @@ nav mark a:focus {
 footer {
     border-top: 1px solid #ccc;
     padding-top: 1em;
-    font-size: 0.8em; /* 16 * .875 = 14 */
+    font-size: 0.7em; /* 16 * .875 = 14 */
     /* max-width: inherit; */
     }
 
