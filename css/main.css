@@ -106,6 +106,13 @@ cite {
 .topElementli {
     float: left;
     position: relative;
+    margin: 0px 0px 0px 68px;
+    padding: 3px 133px 5px 7px;
+    font-family: "Barlow Condensed";
+    font-weight: 600;
+    color: #fff;
+    background: #8c6546;
+    letter-spacing: 1px;
 }
 
 
@@ -141,7 +148,7 @@ nav {
 }
 main {
     /* box-sizing: border-box; */
-    padding: 63px 3em 1px 38px;
+    padding: 65px 3em 1px 38px;
     margin: 0px 9em 0px 330px;
     max-width: 650px;
     /* -webkit-mask-position: inherit; */
@@ -157,11 +164,13 @@ main {
     max-width:  700px;
 }
 .topElement {
+    position: fixed;
+    margin: 0px 0px 0px 0px;
     width: 100%;
     -webkit-transform: translateZ(0);
     -webkit-font-smoothing: subpixel-antialiased;
     background: #333;
-    height: 47px;
+    height: 32px;
 }
 
 
@@ -171,7 +180,7 @@ main {
 .banner {
     background: #ff6f00;
     color: #fff;
-    margin: 0px 0 2em;
+    margin: 32px 0 2em;
     padding: 3% 2em;
     position: fixed;
     width: 270px;
@@ -211,9 +220,9 @@ main {
 #nav-jump {
     border: 1px solid;
     border-radius: 3px;
-    background: #000;
+    background: #333;
     color: #fff;
-    font: "Barlow Condensed", Helvetica, Arial, sans-serif;
+    font-family: "Barlow Condensed", Helvetica, Arial, sans-serif;
     font-weight: 400;
     font-size: 1em;
     padding: .5em;
@@ -433,7 +442,7 @@ figure {
             height: auto;
         }
 	main {
-	padding: 94px 2em 0 18px;
+	padding: 134px 2em 0 18px;
 	border: 0;
 	margin: 0px 0px -95px;
 	}
@@ -596,7 +605,7 @@ figure {
 	min-height: 100%;
     }
         .banner h1 {
-        margin: 31px;
+        margin: 1px 0px 0px 59px;
         line-height: 1.4;
         }
      
@@ -622,7 +631,7 @@ figure {
         #menu ul {
             background: transparent;
             border: 0;
-            margin-left: 50px;
+            margin-left: 76px;
         }
         #menu li,
         #menu a {
