@@ -588,6 +588,7 @@ figure {
                 .drawer-nav-open body #menu {
                     overflow: visible;
                     width: 80%;
+		    background: #fff;
                 }
                 .drawer-nav-open body #menu-close {
                     background: black;
