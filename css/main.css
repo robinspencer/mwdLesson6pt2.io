@@ -113,6 +113,7 @@ cite {
     color: #fff;
     background: #8c6546;
     letter-spacing: 1px;
+    width: 231px;
 }
 
 
@@ -446,6 +447,9 @@ figure {
 	border: 0;
 	margin: 0px 0px -95px;
 	}
+	.topElementli {
+		margin: 0px;
+		{
      
     /* =================================================================
      * Navigation
