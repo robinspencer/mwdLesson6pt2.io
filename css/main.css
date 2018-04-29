@@ -482,7 +482,7 @@ figure {
             z-index: 1002;
         }
         body:not(:target) #menu ul a {
-            border-bottom-width: 0;
+            border-bottom-width: 1;
             overflow: hidden;
             height: 0;
             /* Hardware Accelerate for better animation */
@@ -564,6 +564,7 @@ figure {
             .drawer-nav-enabled body #menu ul {
                 position: static;
                 max-width: 100%;
+		margin: 48px 0px 0px 10px;
             }
                 .drawer-nav-enabled body #menu ul a {
                     height: auto;
