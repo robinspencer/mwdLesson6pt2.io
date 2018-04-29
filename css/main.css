@@ -103,6 +103,10 @@ ul {
 cite {
     font-style: normal;
 }
+.topElementli {
+    float: left;
+    position: relative;
+}
 
 
 /* =================================================================
@@ -151,6 +155,13 @@ main {
     display: block;
     text-align: center;
     max-width:  700px;
+}
+.topElement {
+    width: 100%;
+    -webkit-transform: translateZ(0);
+    -webkit-font-smoothing: subpixel-antialiased;
+    background: #333;
+    height: 47px;
 }
 
 
