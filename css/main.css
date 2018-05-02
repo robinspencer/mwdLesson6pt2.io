@@ -81,6 +81,9 @@ p, dl, ol, ul {
     margin-bottom: 1.25em; /* 16 * 1.2 = 20 */
     color: #58493c;
 }
+.figcaptionP {
+    margin-bottom: .5em;
+}
 .lps {
     font-weight: 600;
     margin-bottom: 6px;
@@ -356,8 +359,9 @@ figure {
     position: relative; /* contain the source */
 }
     .figure__caption {
-        font-size: 0.875em; /* 16 * .875 = 14 */
+        font-size: 0.85em; /* 16 * .875 = 14 */
         margin: 1em 0 0;
+	padding-right: 15px;
     }
         .figure__caption em,
         .figure__caption i {
