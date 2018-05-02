@@ -81,6 +81,12 @@ p, dl, ol, ul {
     margin-bottom: 1.25em; /* 16 * 1.2 = 20 */
     color: #58493c;
 }
+.lps {
+    padding:0;
+}
+.tracks {
+    padding: 0;
+}
 a {
     font-weight: 600;
     color: #58493c;
@@ -98,6 +104,9 @@ a {
 ul {
     list-style-type: none;
     margin: 0;
+    padding: 0;
+}
+.tracklist {
     padding: 0;
 }
 
