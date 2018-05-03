@@ -74,11 +74,7 @@ h3 {
     letter-spacing: .03em;
     margin-bottom: .15em;
     color: #6b5f55;
-    -moz-font-smoothing: antialiased;
-    -ms-font-smoothing: antialiased;
-    -o-font-smoothing: antialiased;
     -webkit-font-smoothing: antialiased;
-    font-smoothing: antialiased;
 }
 }
 
