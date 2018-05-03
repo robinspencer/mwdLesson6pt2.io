@@ -194,6 +194,9 @@ main {
     max-width:  700px;
     padding-top: 10px;
 }
+.bottomDiv {
+    max-width: 700px;
+}
 .topElement {
     position: fixed;
     margin: 0px 0px 0px 0px;
