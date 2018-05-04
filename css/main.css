@@ -254,7 +254,7 @@ main {
  * ================================================================= */
 #nav-jump {
     border: 1px solid;
-    border-radius: 3px;
+    border-radius: 12px;
     background: #333;
     color: #fff;
     font-family: "Barlow Condensed", Helvetica, Arial, sans-serif;
@@ -711,7 +711,7 @@ figure {
         }
         #menu ul a:active,
         #menu ul mark a:active {
-            background: green;
+            background: #ccc;
             font-weight: 600;
             color: #58493c;
         }
@@ -772,7 +772,7 @@ figure {
     }
         .home #menu-close:hover::before,
         .home #menu-close:focus::before {
-            color: red;
+            color: #333;
         }
     
 
