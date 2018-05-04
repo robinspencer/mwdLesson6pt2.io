@@ -39,6 +39,8 @@ body {
     font: 110%/1.4 "Barlow Condensed", Helvetica, Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-image: url("bgd2.jpg");
+	background-size: cover;
     background: #ff6d01;
     -webkit-font-smoothing: antialiased;
 }
@@ -213,7 +215,6 @@ main {
  * Banner
  * ================================================================= */
 .banner {
-    background: #ff6f00;
     color: #fff;
     margin: 32px 0 2em;
     padding: 3% 2em;
@@ -466,6 +467,7 @@ figure {
         /* min-width: 100%; */
         width: 90%;
         padding: 18px 35px 18px 18px;
+	background: #ff6f00;
     }
         .banner h1 a {
             display: table-cell;
