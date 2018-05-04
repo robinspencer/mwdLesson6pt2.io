@@ -83,6 +83,13 @@ p, ol, ul {
     font-weight: 600;
     line-height: 1;
 }
+.discoghead {
+    font-family: Ultra;
+    font-size: .87em;
+    letter-spacing: .03em;
+    margin-bottom: .15em;
+    color: #6b5f55;
+}
 a {
     font-weight: 600;
     color: #58493c;
