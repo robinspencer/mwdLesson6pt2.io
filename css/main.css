@@ -229,9 +229,6 @@ main {
         margin: 0;
     }
     .banner a {
-    background: url(../images/logo-lg2.png);
-    height: 65px;
-    width: 154px;
         border-bottom: 0;
         color: #fff;
         text-decoration: none;
