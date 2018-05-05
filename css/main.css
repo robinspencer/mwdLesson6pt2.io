@@ -187,7 +187,7 @@ main {
 }
 
 .parDiv {
-	background: url(images/bgd2.jpg) no-repeat fixed center top #ff6d01;
+	background: url(images/bgd2.jpg) no-repeat fixed center top;
     min-height: 100%;
     width: 100%;
     max-width:  700px;
