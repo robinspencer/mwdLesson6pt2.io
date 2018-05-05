@@ -134,7 +134,7 @@ cite {
     /* font-family: "Barlow Condensed"; */
     font-weight: 600;
     color: #ffd1af;
-    background: #5f3a1d;
+    background: #401303;
     letter-spacing: 2px;
     width: 249px;
     font-family: Barlow;
@@ -177,13 +177,10 @@ nav {
     margin-bottom: 1em;
 }
 main {
-    /* box-sizing: border-box; */
     padding: 65px 3em 1px 38px;
     margin: 0px 9em 0px 330px;
     max-width: 650px;
-    /* -webkit-mask-position: inherit; */
-    /* border-right: #ff6e01 solid 7em; */
-    background: #fff;
+    background: rgba(255, 255, 255, 0.71);
 }
 
 .parDiv {
@@ -208,7 +205,7 @@ main {
     position: fixed;
     margin: 0px 0px 0px 0px;
     width: 100%;
-    background: #333;
+    background: #290d03;
     height: 32px;
 }
 
@@ -280,7 +277,7 @@ nav ul {
     color: #000;
     border-top: 1px solid;
     list-style: none;
-    margin: 42px 0px 0px 49px;
+    margin: 86px 0px 0px 49px;
     padding: 0;
     position: fixed;
 }
@@ -686,10 +683,11 @@ figure {
             margin-left: -1px;
         }
         #menu a {
-            margin-top: 13px;
+            margin-top: 4px;
     /* border-radius: 11px 17px 0 0; */
             font-weight: 600;
-            color: #58493c;
+            color: #403830;
+    	    background: rgba(255, 255, 255, 0.1);
             line-height: 2.6em;            
             padding: 0 1em;
             width: 236px;
@@ -700,9 +698,9 @@ figure {
             letter-spacing: 3px;
         }
         #menu mark a {
-            background: #fff;
-            font-weight: 600;
-            color: #58493c;
+    	    background: rgba(255, 255, 255, 0.71);
+    	    font-weight: 600;
+    	    color: #403830;
         }
         #menu ul a:hover,
         #menu ul a:focus,
