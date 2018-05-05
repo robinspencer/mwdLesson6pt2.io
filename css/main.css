@@ -234,8 +234,9 @@ main {
         text-decoration: none;
     }
     .bannerLogo {
-	    width: 200px;
-	    height: 100px;
+	margin: 21px 0px 0px 48px;
+	width: 200px;
+	height: 100px;
 }
 	    
 .banner--home {
