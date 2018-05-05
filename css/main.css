@@ -233,6 +233,10 @@ main {
         color: #fff;
         text-decoration: none;
     }
+    .bannerLogo {
+	    width: 200px;
+	    height: 100px;
+}
 	    
 .banner--home {
     text-align: center;
