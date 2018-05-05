@@ -36,12 +36,12 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,secti
 
 
 body {
+    background: url(images/bgd2.jpg) no-repeat fixed center top #ff6d01;
+    min-height: 100%;
+    width: 100%;
     font: 105%/1.4 "Barlow Condensed", Helvetica, Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url("https://github.com/robinspencer/mwdLesson6pt2.io/blob/master/images/bgd2.jpg");
-	background-size: cover;
-    background: #ff6d01;
     -webkit-font-smoothing: antialiased;
 }
 
