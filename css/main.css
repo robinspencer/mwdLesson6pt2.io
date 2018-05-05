@@ -232,6 +232,8 @@ main {
         border-bottom: 0;
         color: #fff;
         text-decoration: none;
+	width: 200px;
+    	height: 90px;
     }
     .bannerLogo {
 	margin: 21px 0px 0px 48px;
