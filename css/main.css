@@ -706,8 +706,8 @@ figure {
             margin-top: 4px;
     /* border-radius: 11px 17px 0 0; */
             font-weight: 600;
-            color: #403830;
-    	    background: rgba(255, 255, 255, 0.1);
+            color: #290d0354;
+            background: rgba(190, 145, 134, 0.17);
             line-height: 2.6em;            
             padding: 0 1em;
             width: 236px;
@@ -718,9 +718,9 @@ figure {
             letter-spacing: 3px;
         }
         #menu mark a {
-    	    background: url(../images/lineBgd.png) top left repeat;
+    	    color: #401203ab;
+            background: #bd90856e;
     	    font-weight: 600;
-    	    color: #403830;
         }
         #menu ul a:hover,
         #menu ul a:focus,
