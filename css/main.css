@@ -260,20 +260,21 @@ main {
  * Navigation
  * ================================================================= */
 #nav-jump {
-    border: 1px solid;
-    border-radius: 12px;
-    background: #333;
-    color: #fff;
+    border: 3px solid #290d03;
+    border-radius: 14px;
+    background: #401203;
+    color: #cc7f33;
     font-family: "Barlow Condensed", Helvetica, Arial, sans-serif;
     font-weight: 400;
     font-size: 1em;
     padding: .5em;
     text-transform: uppercase;
-    /* move to the upper right corner */
     position: absolute;
     top: .75em;
     right: 1em;
     z-index: 1000;
+    width: auto;
+    height: auto;
 }
 nav {
     outline: none;
