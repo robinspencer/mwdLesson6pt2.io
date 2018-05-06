@@ -717,7 +717,7 @@ figure {
             letter-spacing: 3px;
         }
         #menu mark a {
-    	    background: rgba(255, 255, 255, 0.71);
+    	    background: url(../images/lineBgd.png) top left repeat;
     	    font-weight: 600;
     	    color: #403830;
         }
