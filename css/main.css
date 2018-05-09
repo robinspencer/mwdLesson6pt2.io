@@ -515,6 +515,13 @@ figure {
 	margin: 0px 0px -95px;
 	background: rgba(255, 255, 255);
 	}
+	
+	section {
+	padding: 148px 2em 0 18px;
+	border: 0;
+	margin: 0px 0px -95px;
+	background: rgba(255, 255, 255);
+	}	
      
     /* =================================================================
      * Navigation
