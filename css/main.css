@@ -1,6 +1,7 @@
 /* =================================================================
  * Main CSS file from I Heart Cuttlefish Project
  * by Aaron Gustafson, Easy Designs. Edited by Robin Spencer.
+ * See the original here: http://aarongustafson.github.io/i-heart-cuttlefish/
  * ================================================================= */
 
 /* Charset Controls */
@@ -378,9 +379,9 @@ img {
 figure {
     margin: 0 0 1.25em; /* 16 * 1.2 = 20 */
 }
-.figure {
+/* .figure {
     position: relative; /* contain the source */
-}
+
     .figure__caption {
         font-size: 0.85em; /* 16 * .875 = 14 */
         margin: 1em 0 0;
